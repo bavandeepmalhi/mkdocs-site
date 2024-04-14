@@ -4,6 +4,5 @@ rules:
   line-length:
     max: 80
     allow-non-breakable-inline-mappings: true
-  indent-sequences: consistent
-  trailing-spaces: enabled
-  key-duplicates: enabled
+  trailing-spaces: enable
+  key-duplicates: enable
