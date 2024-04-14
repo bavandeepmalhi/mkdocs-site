@@ -14,3 +14,11 @@ repos:
     hooks:
       - id: markdownlint
         args: [--config=.markdownlint.yaml]
+  - repo: local
+    hooks:
+      - id: get-requirements-txt-for-cloudflare
+        name: Export poetry dependencies to requirements.txt
+        entry: .hooks/update_requirements.sh
+        language: script
+        always_run: false
+        files: '^poetry\.lock$'
