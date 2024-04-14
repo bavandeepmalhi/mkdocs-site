@@ -1,17 +1,6 @@
 # Default state for all rules
 default: true
 
-# Indent styling
-# * outmost indent
-#   - one indent
-#   - second indent
-# * Another major bullet
-# Unordered list style
-MD004: true
-
-# I prefer two blank lines before each heading.
-MD012: false # Multiple consecutive blank lines
-
 # line-length - Line length
 MD013: false
 
